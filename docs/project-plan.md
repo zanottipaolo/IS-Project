@@ -7,7 +7,7 @@ Siamo un gruppo di studenti di ingegneria informatica dell'università di Bergam
 Abbiamo deciso di sviluppare il sofrware secondo il metodo Agile, tramite gli issue forniti da Github.
 
 ## 3. Organizzazione del progetto
-In quanto il team è composto solamente da 3 persone, non riteniamo necessaria la figura del project manager. Per questo motivo abbiamo adottato una suddivisione equa dei ruoli. Quindi le decisioni relative alla gestione dello sviluppo del progetto verranno prese congiuntamente. Inoltre, abbiamo deciso che tutti i componenti del gruppo svolgeranno il ruolo di full-stack developer, quindi entrambi sia frontend e backend.
+In quanto il team è composto solamente da 3 persone, non riteniamo necessaria la figura del project manager. Per questo motivo abbiamo adottato una suddivisione equa dei ruoli. Quindi le decisioni relative alla gestione dello sviluppo del progetto verranno prese congiuntamente. Inoltre, abbiamo deciso che il team si dividerà i ruoli, come spiegato al punto 7 del project plan.
 
 ## 4. Standard, linee guida, procedure
 Abbiamo deciso di suddividere il progetto in 2 componenti che comunicano tramite API Rest
@@ -35,8 +35,11 @@ Abbiamo considerato i seguenti rishi:
 
 ## 7. Personale
 Abbiamo deciso i seguenti ruoli:
-- Progettista Database: Gherardi Samuel
-- Back-end Developer: Soldini Matteo
-- Front-end Developer: Zanotti Paolo
+- Database Architect: Gherardi Samuel
+- Backend Developer: Soldini Matteo
+- Frontend Developer: Zanotti Paolo
 - Tester: Gherardi Samuel
-- Mentor: Domenico Gaeni
+Il Database Architect inizierà a lavorare prima degli altri, per poter rendere disponibile lo schema delle API su cui si baserà il backend. Seguirà poi il lavoro dei developer per poi finire con il testing del software.
+
+## 8. Metodi e tecniche
+
