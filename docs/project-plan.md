@@ -32,3 +32,11 @@ Per quanto riguarda l'attività di organizzazione, abbiamo deciso di incontrarci
 Abbiamo considerato i seguenti rishi:
 - Finire in ritardo, per questo motivo abbiamo deciso di cominciare con largo anticipo rispetto alla consegna dell'elaborato
 - Il progetto non viene utilizzato, ad esempio per il prezzo dell'abbonamento. Per questo motivo abbiamo deciso di rilasciarlo in 2 versioni: una gratis con funzionalità limitate ed una a pagamento con tutte le funzionalità
+
+## 7. Personale
+Abbiamo deciso i seguenti ruoli:
+- Progettista Database: Gherardi Samuel
+- Back-end Developer: Soldini Matteo
+- Front-end Developer: Zanotti Paolo
+- Tester: Gherardi Samuel
+- Mentor: Domenico Gaeni
