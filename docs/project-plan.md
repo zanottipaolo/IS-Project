@@ -42,4 +42,9 @@ Abbiamo deciso i seguenti ruoli:
 Il Database Architect inizierà a lavorare prima degli altri, per poter rendere disponibile lo schema delle API su cui si baserà il backend. Seguirà poi il lavoro dei developer per poi finire con il testing del software.
 
 ## 8. Metodi e tecniche
+Potremmo estrarre i requisiti della nostra applicazione da un'utenza base tramite indagini di mercato e verificarli successivamente con dei diagrammi UML. In particolare tramite:
+- USE-CASE DIAGRAM
+- UML-CLASS DIAGRAM
+- ER DIAGRAM
 
+Per il versioning del codice invece utilizzeremo Git tramite la piattaforma Github. Verificheremo poi il tutto tramite testing del software.
