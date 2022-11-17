@@ -1,1 +1,1 @@
-![Alt text](./docs/images/ER.svg)
+![Alt text](./images/ER.svg)
