@@ -1,14 +1,14 @@
 # Modello ER
 
-## Schema ER
+## Schema ER 📄
 
 ![Image not found](./images/er.svg)
 
-## Modello logico
+## Modello logico 📄
 
 ![Image not found](./images/logical_schema.svg)
 
-## Descrizione
+## Descrizione ✏️
 
 ### `User`
 
