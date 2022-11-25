@@ -1,1 +1,1760 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="568.7890625" height="452"><defs/><g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="295" y="39" width="140.14892578125" height="102" opacity="0.2"/></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#ffffff" stroke="none" x="288" y="32" width="140.14892578125" height="102"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 288 32 L 428.14892578125 32 L 428.14892578125 134 L 288 134 L 288 32 Z Z" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 288 57 L 428.14892578125 57" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 288 125 L 428.14892578125 125" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="343.620849609375" y="50">User</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="293" y="73">+id: int {id}</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="293" y="88">+username: string</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="293" y="103">+email_address: string</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="293" y="118">+password: string</text></g></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="535" y="55" width="92.7890625" height="72" opacity="0.2"/></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#ffffff" stroke="none" x="528" y="48" width="92.7890625" height="72"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 528 48 L 620.7890625 48 L 620.7890625 120 L 528 120 L 528 48 Z Z" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 528 73 L 620.7890625 73" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 528 111 L 620.7890625 111" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="532.5" y="66">BankAccount</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="533" y="89">+id: int {id}</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="533" y="104">+name: string</text></g></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="319" y="231" width="96.78173828125" height="87" opacity="0.2"/></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#ffffff" stroke="none" x="312" y="224" width="96.78173828125" height="87"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 312 224 L 408.78173828125 224 L 408.78173828125 311 L 312 311 L 312 224 Z Z" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 312 249 L 408.78173828125 249" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 312 302 L 408.78173828125 302" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="331.851806640625" y="242">Currency</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="317" y="265">+id: int {id}</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="317" y="280">+name: string</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="317" y="295">+symbol: string</text></g></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="543" y="239" width="81.96630859375" height="72" opacity="0.2"/></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#ffffff" stroke="none" x="536" y="232" width="81.96630859375" height="72"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 536 232 L 617.96630859375 232 L 617.96630859375 304 L 536 304 L 536 232 Z Z" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 536 257 L 617.96630859375 257" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 536 295 L 617.96630859375 295" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="540.5" y="250">Transaction</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="541" y="273">+id: int {id}</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="541" y="288">+amount: int</text></g></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 429 83 L 527 84" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="#000000" stroke="none" d="M 439.20509784013 78.89439674671625 L 429 83 L 439.1191937866866 87.31299398416962 L 450.99885473333427 83.22447810952382"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 439.20509784013 78.89439674671625 L 429 83 L 439.1191937866866 87.31299398416962 L 450.99885473333427 83.22447810952382 L 439.20509784013 78.89439674671625" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="460.5" y="73">+have</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="446.641357421875" y="100">1</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="495.5" y="101">1..*</text></g></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 574 121 L 576 231" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="#000000" stroke="none" d="M 578.3935675130193 131.08447145409917 L 574 121 L 569.9759232321812 131.23751953193258 L 574.3999339006854 142.9963645376931"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 578.3935675130193 131.08447145409917 L 574 121 L 569.9759232321812 131.23751953193258 L 574.3999339006854 142.9963645376931 L 578.3935675130193 131.08447145409917" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="527.5" y="178">+affect</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="549.641357421875" y="147">1</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="545.5" y="218">0..*</text></g></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 410 267 L 535 268" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="450.5" y="283">+using</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="427.641357421875" y="284">1</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="503.5" y="285">0..*</text></g></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 410 224 L 531 121" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="469.5" y="192">+use</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="430.641357421875" y="224">1</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="512.5" y="149">0..*</text></g></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="319" y="391" width="88.12353515625" height="72" opacity="0.2"/></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#ffffff" stroke="none" x="312" y="384" width="88.12353515625" height="72"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 312 384 L 400.12353515625 384 L 400.12353515625 456 L 312 456 L 312 384 Z Z" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 312 409 L 400.12353515625 409" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 312 447 L 400.12353515625 447" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="327.8876953125" y="402">Category</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="317" y="425">+id: int {id}</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="317" y="440">+name: string</text></g></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 535 296 L 401 389" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 406.94881336081977 379.747345267539 L 401 389 L 411.74906117274975 386.66383136214785 L 419.0736491565966 376.4563479734068"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 406.94881336081977 379.747345267539 L 401 389 L 411.74906117274975 386.66383136214785 L 419.0736491565966 376.4563479734068 L 406.94881336081977 379.747345267539" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="383.5" y="338">+groupped by</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="500.5" y="303">0..*</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="407.641357421875" y="371">1</text></g></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="135" y="231" width="98.96533203125" height="87" opacity="0.2"/></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#ffffff" stroke="none" x="128" y="224" width="98.96533203125" height="87"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 128 224 L 226.96533203125 224 L 226.96533203125 311 L 128 311 L 128 224 Z Z" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 128 249 L 226.96533203125 249" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 128 302 L 226.96533203125 302" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="155.09765625" y="242">Budget</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="133" y="265">+id: int {id}</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="133" y="280">+name: string</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="133" y="295">+amount: int</text></g></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 220 223 L 307 135" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="#000000" stroke="none" d="M 302.84862244878127 145.18656293492742 L 307 135 L 296.8615450539969 139.26752051053833 L 291.5327967615223 150.64498718374756"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 302.84862244878127 145.18656293492742 L 307 135 L 296.8615450539969 139.26752051053833 L 291.5327967615223 150.64498718374756 L 302.84862244878127 145.18656293492742" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="234.5" y="173">+have</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="234.5" y="221">0..*</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="296.641357421875" y="164">1</text></g></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 228 311 L 313 383" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="#FFFFFF" stroke="none" d="M 302.52461599184323 379.64346460145987 L 313 383 L 307.9662138738996 373.2193559906988 L 296.21299521367234 368.78041947511065"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 302.52461599184323 379.64346460145987 L 313 383 L 307.9662138738996 373.2193559906988 L 296.21299521367234 368.78041947511065 L 302.52461599184323 379.64346460145987" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="263.5" y="340">+relative to</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="226.5" y="339">0..*</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="284.641357421875" y="383">1</text></g></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#C0C0C0" stroke="none" x="79" y="31" width="127.87255859375" height="117" opacity="0.2"/></g><g transform="translate(-62,-14) scale(1,1)"><rect fill="#ffffff" stroke="none" x="72" y="24" width="127.87255859375" height="117"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 72 24 L 199.87255859375 24 L 199.87255859375 141 L 72 141 L 72 24 Z Z" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 72 49 L 199.87255859375 49" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 72 132 L 199.87255859375 132" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="bold" text-decoration="none" x="105.95947265625" y="42">Milestone</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="65">+id: int {id}</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="80">+description: string</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="95">+due_date: date</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="110">+amount: int</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="77" y="125">+monthly_saving: int</text></g></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 287 83 L 201 82" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="#000000" stroke="none" d="M 276.7890675391646 87.09107055429963 L 287 83 L 276.8869566834476 78.6726041459633 L 265.0014871396238 82.74420333883285"/></g><g transform="translate(-62,-14) scale(1,1)"><path fill="none" stroke="#000000" d="M 276.7890675391646 87.09107055429963 L 287 83 L 276.8869566834476 78.6726041459633 L 265.0014871396238 82.74420333883285 L 276.7890675391646 87.09107055429963" stroke-miterlimit="10"/></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="225.5" y="102">+have</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="261.641357421875" y="75">1</text></g></g><g transform="translate(-62,-14) scale(1,1)"><g><path fill="none" stroke="none"/><text fill="#000000" stroke="none" font-family="Arial" font-size="13px" font-style="normal" font-weight="normal" text-decoration="none" x="212.5" y="74">0..*</text></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="568.7890625"
+   height="452"
+   id="svg642"
+   sodipodi:docname="class_diagram.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview644"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.7168142"
+     inkscape:cx="284.24742"
+     inkscape:cy="226"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg642" />
+  <defs
+     id="defs2" />
+  <g
+     id="g640">
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g6">
+      <rect
+         fill="#C0C0C0"
+         stroke="none"
+         x="295"
+         y="39"
+         width="140.14892578125"
+         height="102"
+         opacity="0.2"
+         id="rect4" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g10">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="288"
+         y="32"
+         width="140.14892578125"
+         height="102"
+         id="rect8" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g14">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 288 32 L 428.14892578125 32 L 428.14892578125 134 L 288 134 L 288 32 Z Z"
+         stroke-miterlimit="10"
+         id="path12" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g18">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 288 57 L 428.14892578125 57"
+         stroke-miterlimit="10"
+         id="path16" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g22">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 288 125 L 428.14892578125 125"
+         stroke-miterlimit="10"
+         id="path20" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g30">
+      <g
+         id="g28">
+        <path
+           fill="none"
+           stroke="none"
+           id="path24" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="none"
+           x="343.620849609375"
+           y="50"
+           id="text26">User</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g38">
+      <g
+         id="g36">
+        <path
+           fill="none"
+           stroke="none"
+           id="path32" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="293"
+           y="73"
+           id="text34">+id: int {id}</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g46">
+      <g
+         id="g44">
+        <path
+           fill="none"
+           stroke="none"
+           id="path40" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="293"
+           y="88"
+           id="text42">+username: string</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g54">
+      <g
+         id="g52">
+        <path
+           fill="none"
+           stroke="none"
+           id="path48" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="293"
+           y="103"
+           id="text50">+email_address: string</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g62">
+      <g
+         id="g60">
+        <path
+           fill="none"
+           stroke="none"
+           id="path56" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="293"
+           y="118"
+           id="text58">+password: string</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g66">
+      <rect
+         fill="#C0C0C0"
+         stroke="none"
+         x="535"
+         y="55"
+         width="92.7890625"
+         height="72"
+         opacity="0.2"
+         id="rect64" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g70">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="528"
+         y="48"
+         width="92.7890625"
+         height="72"
+         id="rect68" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g74">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 528 48 L 620.7890625 48 L 620.7890625 120 L 528 120 L 528 48 Z Z"
+         stroke-miterlimit="10"
+         id="path72" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g78">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 528 73 L 620.7890625 73"
+         stroke-miterlimit="10"
+         id="path76" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g82">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 528 111 L 620.7890625 111"
+         stroke-miterlimit="10"
+         id="path80" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g90">
+      <g
+         id="g88">
+        <path
+           fill="none"
+           stroke="none"
+           id="path84" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="none"
+           x="532.5"
+           y="66"
+           id="text86">BankAccount</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g98">
+      <g
+         id="g96">
+        <path
+           fill="none"
+           stroke="none"
+           id="path92" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="533"
+           y="89"
+           id="text94">+id: int {id}</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g106">
+      <g
+         id="g104">
+        <path
+           fill="none"
+           stroke="none"
+           id="path100" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="533"
+           y="104"
+           id="text102">+name: string</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g110">
+      <rect
+         fill="#C0C0C0"
+         stroke="none"
+         x="319"
+         y="231"
+         width="96.78173828125"
+         height="87"
+         opacity="0.2"
+         id="rect108" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g114">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="312"
+         y="224"
+         width="96.78173828125"
+         height="87"
+         id="rect112" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g118">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 312 224 L 408.78173828125 224 L 408.78173828125 311 L 312 311 L 312 224 Z Z"
+         stroke-miterlimit="10"
+         id="path116" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g122">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 312 249 L 408.78173828125 249"
+         stroke-miterlimit="10"
+         id="path120" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g126">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 312 302 L 408.78173828125 302"
+         stroke-miterlimit="10"
+         id="path124" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g134">
+      <g
+         id="g132">
+        <path
+           fill="none"
+           stroke="none"
+           id="path128" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="none"
+           x="331.851806640625"
+           y="242"
+           id="text130">Currency</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g142">
+      <g
+         id="g140">
+        <path
+           fill="none"
+           stroke="none"
+           id="path136" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="317"
+           y="265"
+           id="text138">+id: int {id}</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g150">
+      <g
+         id="g148">
+        <path
+           fill="none"
+           stroke="none"
+           id="path144" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="317"
+           y="280"
+           id="text146">+name: string</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g158">
+      <g
+         id="g156">
+        <path
+           fill="none"
+           stroke="none"
+           id="path152" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="317"
+           y="295"
+           id="text154">+symbol: string</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g162">
+      <rect
+         fill="#C0C0C0"
+         stroke="none"
+         x="543"
+         y="239"
+         width="81.96630859375"
+         height="72"
+         opacity="0.2"
+         id="rect160" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g166">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="536"
+         y="232"
+         width="81.96630859375"
+         height="72"
+         id="rect164" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g170">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 536 232 L 617.96630859375 232 L 617.96630859375 304 L 536 304 L 536 232 Z Z"
+         stroke-miterlimit="10"
+         id="path168" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g174">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 536 257 L 617.96630859375 257"
+         stroke-miterlimit="10"
+         id="path172" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g178">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 536 295 L 617.96630859375 295"
+         stroke-miterlimit="10"
+         id="path176" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g186">
+      <g
+         id="g184">
+        <path
+           fill="none"
+           stroke="none"
+           id="path180" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="none"
+           x="540.5"
+           y="250"
+           id="text182">Transaction</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g194">
+      <g
+         id="g192">
+        <path
+           fill="none"
+           stroke="none"
+           id="path188" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="541"
+           y="273"
+           id="text190">+id: int {id}</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g202">
+      <g
+         id="g200">
+        <path
+           fill="none"
+           stroke="none"
+           id="path196" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="541"
+           y="288"
+           id="text198">+amount: int</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g206">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 429 83 L 527 84"
+         stroke-miterlimit="10"
+         id="path204" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g210">
+      <path
+         fill="#000000"
+         stroke="none"
+         d="M 439.20509784013 78.89439674671625 L 429 83 L 439.1191937866866 87.31299398416962 L 450.99885473333427 83.22447810952382"
+         id="path208" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g214">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 439.20509784013 78.89439674671625 L 429 83 L 439.1191937866866 87.31299398416962 L 450.99885473333427 83.22447810952382 L 439.20509784013 78.89439674671625"
+         stroke-miterlimit="10"
+         id="path212" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g222">
+      <g
+         id="g220">
+        <path
+           fill="none"
+           stroke="none"
+           id="path216" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="460.5"
+           y="73"
+           id="text218">+have</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g230">
+      <g
+         id="g228">
+        <path
+           fill="none"
+           stroke="none"
+           id="path224" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="446.641357421875"
+           y="100"
+           id="text226">1</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g238">
+      <g
+         id="g236">
+        <path
+           fill="none"
+           stroke="none"
+           id="path232" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="495.5"
+           y="101"
+           id="text234">1..*</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g242">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 574 121 L 576 231"
+         stroke-miterlimit="10"
+         id="path240" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g246">
+      <path
+         fill="#000000"
+         stroke="none"
+         d="M 578.3935675130193 131.08447145409917 L 574 121 L 569.9759232321812 131.23751953193258 L 574.3999339006854 142.9963645376931"
+         id="path244" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g250">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 578.3935675130193 131.08447145409917 L 574 121 L 569.9759232321812 131.23751953193258 L 574.3999339006854 142.9963645376931 L 578.3935675130193 131.08447145409917"
+         stroke-miterlimit="10"
+         id="path248" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g258">
+      <g
+         id="g256">
+        <path
+           fill="none"
+           stroke="none"
+           id="path252" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="527.5"
+           y="178"
+           id="text254">+affect</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g266">
+      <g
+         id="g264">
+        <path
+           fill="none"
+           stroke="none"
+           id="path260" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="549.641357421875"
+           y="147"
+           id="text262">1</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g274">
+      <g
+         id="g272">
+        <path
+           fill="none"
+           stroke="none"
+           id="path268" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="545.5"
+           y="218"
+           id="text270">0..*</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g278">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 410 267 L 535 268"
+         stroke-miterlimit="10"
+         id="path276" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g286">
+      <g
+         id="g284">
+        <path
+           fill="none"
+           stroke="none"
+           id="path280" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="450.5"
+           y="283"
+           id="text282">+using</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g294">
+      <g
+         id="g292">
+        <path
+           fill="none"
+           stroke="none"
+           id="path288" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="427.641357421875"
+           y="284"
+           id="text290">1</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g302">
+      <g
+         id="g300">
+        <path
+           fill="none"
+           stroke="none"
+           id="path296" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="503.5"
+           y="285"
+           id="text298">0..*</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g306">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 410 224 L 531 121"
+         stroke-miterlimit="10"
+         id="path304" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g314">
+      <g
+         id="g312">
+        <path
+           fill="none"
+           stroke="none"
+           id="path308" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="469.5"
+           y="192"
+           id="text310">+use</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g322">
+      <g
+         id="g320">
+        <path
+           fill="none"
+           stroke="none"
+           id="path316" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="430.641357421875"
+           y="224"
+           id="text318">1</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g330">
+      <g
+         id="g328">
+        <path
+           fill="none"
+           stroke="none"
+           id="path324" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="512.5"
+           y="149"
+           id="text326">0..*</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g334">
+      <rect
+         fill="#C0C0C0"
+         stroke="none"
+         x="319"
+         y="391"
+         width="88.12353515625"
+         height="72"
+         opacity="0.2"
+         id="rect332" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g338">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="312"
+         y="384"
+         width="88.12353515625"
+         height="72"
+         id="rect336" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g342">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 312 384 L 400.12353515625 384 L 400.12353515625 456 L 312 456 L 312 384 Z Z"
+         stroke-miterlimit="10"
+         id="path340" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g346">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 312 409 L 400.12353515625 409"
+         stroke-miterlimit="10"
+         id="path344" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g350">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 312 447 L 400.12353515625 447"
+         stroke-miterlimit="10"
+         id="path348" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g358">
+      <g
+         id="g356">
+        <path
+           fill="none"
+           stroke="none"
+           id="path352" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="none"
+           x="327.8876953125"
+           y="402"
+           id="text354">Category</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g366">
+      <g
+         id="g364">
+        <path
+           fill="none"
+           stroke="none"
+           id="path360" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="317"
+           y="425"
+           id="text362">+id: int {id}</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g374">
+      <g
+         id="g372">
+        <path
+           fill="none"
+           stroke="none"
+           id="path368" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="317"
+           y="440"
+           id="text370">+name: string</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g378">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 535 296 L 401 389"
+         stroke-miterlimit="10"
+         id="path376" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g382">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         d="M 406.94881336081977 379.747345267539 L 401 389 L 411.74906117274975 386.66383136214785 L 419.0736491565966 376.4563479734068"
+         id="path380" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g386">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 406.94881336081977 379.747345267539 L 401 389 L 411.74906117274975 386.66383136214785 L 419.0736491565966 376.4563479734068 L 406.94881336081977 379.747345267539"
+         stroke-miterlimit="10"
+         id="path384" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g394">
+      <g
+         id="g392">
+        <path
+           fill="none"
+           stroke="none"
+           id="path388" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="383.5"
+           y="338"
+           id="text390">+groupped by</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g402">
+      <g
+         id="g400">
+        <path
+           fill="none"
+           stroke="none"
+           id="path396" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="500.5"
+           y="303"
+           id="text398">0..*</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g410">
+      <g
+         id="g408">
+        <path
+           fill="none"
+           stroke="none"
+           id="path404" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="407.641357421875"
+           y="371"
+           id="text406">1</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g414">
+      <rect
+         fill="#C0C0C0"
+         stroke="none"
+         x="135"
+         y="231"
+         width="98.96533203125"
+         height="87"
+         opacity="0.2"
+         id="rect412" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g418">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="128"
+         y="224"
+         width="98.96533203125"
+         height="87"
+         id="rect416" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g422">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 128 224 L 226.96533203125 224 L 226.96533203125 311 L 128 311 L 128 224 Z Z"
+         stroke-miterlimit="10"
+         id="path420" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g426">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 128 249 L 226.96533203125 249"
+         stroke-miterlimit="10"
+         id="path424" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g430">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 128 302 L 226.96533203125 302"
+         stroke-miterlimit="10"
+         id="path428" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g438">
+      <g
+         id="g436">
+        <path
+           fill="none"
+           stroke="none"
+           id="path432" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="none"
+           x="155.09765625"
+           y="242"
+           id="text434">Budget</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g446">
+      <g
+         id="g444">
+        <path
+           fill="none"
+           stroke="none"
+           id="path440" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="133"
+           y="265"
+           id="text442">+id: int {id}</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g454">
+      <g
+         id="g452">
+        <path
+           fill="none"
+           stroke="none"
+           id="path448" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="133"
+           y="280"
+           id="text450">+name: string</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g462">
+      <g
+         id="g460">
+        <path
+           fill="none"
+           stroke="none"
+           id="path456" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="133"
+           y="295"
+           id="text458">+amount: int</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g466">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 220 223 L 307 135"
+         stroke-miterlimit="10"
+         id="path464" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g470">
+      <path
+         fill="#000000"
+         stroke="none"
+         d="M 302.84862244878127 145.18656293492742 L 307 135 L 296.8615450539969 139.26752051053833 L 291.5327967615223 150.64498718374756"
+         id="path468" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g474">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 302.84862244878127 145.18656293492742 L 307 135 L 296.8615450539969 139.26752051053833 L 291.5327967615223 150.64498718374756 L 302.84862244878127 145.18656293492742"
+         stroke-miterlimit="10"
+         id="path472" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g482">
+      <g
+         id="g480">
+        <path
+           fill="none"
+           stroke="none"
+           id="path476" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="234.5"
+           y="173"
+           id="text478">+have</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g490">
+      <g
+         id="g488">
+        <path
+           fill="none"
+           stroke="none"
+           id="path484" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="234.5"
+           y="221"
+           id="text486">0..*</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g498">
+      <g
+         id="g496">
+        <path
+           fill="none"
+           stroke="none"
+           id="path492" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="296.641357421875"
+           y="164"
+           id="text494">1</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g502">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 228 311 L 313 383"
+         stroke-miterlimit="10"
+         id="path500" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g506">
+      <path
+         fill="#FFFFFF"
+         stroke="none"
+         d="M 302.52461599184323 379.64346460145987 L 313 383 L 307.9662138738996 373.2193559906988 L 296.21299521367234 368.78041947511065"
+         id="path504" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g510">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 302.52461599184323 379.64346460145987 L 313 383 L 307.9662138738996 373.2193559906988 L 296.21299521367234 368.78041947511065 L 302.52461599184323 379.64346460145987"
+         stroke-miterlimit="10"
+         id="path508" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g518">
+      <g
+         id="g516">
+        <path
+           fill="none"
+           stroke="none"
+           id="path512" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="263.5"
+           y="340"
+           id="text514">+relative to</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g526">
+      <g
+         id="g524">
+        <path
+           fill="none"
+           stroke="none"
+           id="path520" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="226.5"
+           y="339"
+           id="text522">0..*</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g534">
+      <g
+         id="g532">
+        <path
+           fill="none"
+           stroke="none"
+           id="path528" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="284.641357421875"
+           y="383"
+           id="text530">1</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g538">
+      <rect
+         fill="#C0C0C0"
+         stroke="none"
+         x="79"
+         y="31"
+         width="127.87255859375"
+         height="117"
+         opacity="0.2"
+         id="rect536" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g542">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="72"
+         y="24"
+         width="127.87255859375"
+         height="117"
+         id="rect540" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g546">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 72 24 L 199.87255859375 24 L 199.87255859375 141 L 72 141 L 72 24 Z Z"
+         stroke-miterlimit="10"
+         id="path544" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g550">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 72 49 L 199.87255859375 49"
+         stroke-miterlimit="10"
+         id="path548" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g554">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 72 132 L 199.87255859375 132"
+         stroke-miterlimit="10"
+         id="path552" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g562">
+      <g
+         id="g560">
+        <path
+           fill="none"
+           stroke="none"
+           id="path556" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="bold"
+           text-decoration="none"
+           x="105.95947265625"
+           y="42"
+           id="text558">Milestone</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g570">
+      <g
+         id="g568">
+        <path
+           fill="none"
+           stroke="none"
+           id="path564" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="77"
+           y="65"
+           id="text566">+id: int {id}</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g578">
+      <g
+         id="g576">
+        <path
+           fill="none"
+           stroke="none"
+           id="path572" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="77"
+           y="80"
+           id="text574">+description: string</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g586">
+      <g
+         id="g584">
+        <path
+           fill="none"
+           stroke="none"
+           id="path580" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="77"
+           y="95"
+           id="text582">+due_date: date</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g594">
+      <g
+         id="g592">
+        <path
+           fill="none"
+           stroke="none"
+           id="path588" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="77"
+           y="110"
+           id="text590">+amount: int</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g602">
+      <g
+         id="g600">
+        <path
+           fill="none"
+           stroke="none"
+           id="path596" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="77"
+           y="125"
+           id="text598">+monthly_saving: int</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g606">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 287 83 L 201 82"
+         stroke-miterlimit="10"
+         id="path604" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g610">
+      <path
+         fill="#000000"
+         stroke="none"
+         d="M 276.7890675391646 87.09107055429963 L 287 83 L 276.8869566834476 78.6726041459633 L 265.0014871396238 82.74420333883285"
+         id="path608" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g614">
+      <path
+         fill="none"
+         stroke="#000000"
+         d="M 276.7890675391646 87.09107055429963 L 287 83 L 276.8869566834476 78.6726041459633 L 265.0014871396238 82.74420333883285 L 276.7890675391646 87.09107055429963"
+         stroke-miterlimit="10"
+         id="path612" />
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g622">
+      <g
+         id="g620">
+        <path
+           fill="none"
+           stroke="none"
+           id="path616" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="225.5"
+           y="102"
+           id="text618">+have</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g630">
+      <g
+         id="g628">
+        <path
+           fill="none"
+           stroke="none"
+           id="path624" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="261.641357421875"
+           y="75"
+           id="text626">1</text>
+      </g>
+    </g>
+    <g
+       transform="translate(-62,-14) scale(1,1)"
+       id="g638">
+      <g
+         id="g636">
+        <path
+           fill="none"
+           stroke="none"
+           id="path632" />
+        <text
+           fill="#000000"
+           stroke="none"
+           font-family="Arial"
+           font-size="13px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="none"
+           x="212.5"
+           y="74"
+           id="text634">0..*</text>
+      </g>
+    </g>
+  </g>
+</svg>
