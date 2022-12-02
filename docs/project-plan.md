@@ -43,12 +43,15 @@ Il team, specializzato su aree differenti, si dividerà nei seguenti ruoli:
 Il Database Architect inizierà a lavorare prima degli altri, per poter rendere disponibile lo schema delle API su cui si baserà il backend. Seguirà poi il lavoro dei developer per poi finire con il testing del software, documentando man mano il tutto.
 
 ## 8. Metodi e tecniche
-Potremmo estrarre i requisiti della nostra applicazione da un'utenza base tramite indagini di mercato e verificarli successivamente con dei diagrammi UML. In particolare tramite:
+Potremmo estrarre i requisiti della nostra applicazione da un'utenza base tramite indagini di mercato e verificarli successivamente con dei diagrammi UML. In particolare usando:
 - USE-CASE DIAGRAM
 - UML-CLASS DIAGRAM
 - ER DIAGRAM
+- STATE-CHART DIAGRAM
+- ACTIVITY DIAGRAM
+- SEQUENCE DIAGRAM
 
-Per il versioning del codice invece utilizzeremo Git tramite la piattaforma Github. Verificheremo poi il tutto tramite testing del software.
+Per il versioning del codice invece utilizzeremo Git tramite la piattaforma Github. Verificheremo poi il tutto con il testing del software.
 
 ## 9. Garanzia di qualità
 Abbiamo deciso di seguire il modello di McCall per garantire che il software in fase di sviluppo soddisfi i seguenti requisiti di qualità:
@@ -58,19 +61,21 @@ Abbiamo deciso di seguire il modello di McCall per garantire che il software in 
 4. Manutenibilità
 5. Usabilità
 6. Riutilizzabilità
-Garantiamo i precedenti requisiti sfruttando le tecnologie più moderne, ad esempio React ci permette il riutilizzo del codice tramite l'uso di componenti. Inoltre adottiamo le best practices del web development.
+Garantiremo i precedenti requisiti sfruttando le tecnologie più moderne, ad esempio React permette il riutilizzo del codice tramite l'uso di componenti. Inoltre adotteremo le best practices del web development moderno, come ad esempio la sicurezza dei dati sensibili dell'utente, l'accessibilità del contenuto e una buona ottimizzazione dei contenuti per il posizionamento del sito sui motori di ricerca principali (SEO).
 
 ## 10. Pacchetti di lavoro
-Abbiamo deciso di seguire il pattern MVC (Model View Controller). Nel nostro caso il backend gestirà la parte di Model e Controller esponendo delle API Restful, le quali possono essere consumate dal frontend realizzato con React.
+Il software sviluppato, in particolare, seguirà il pattern MVC (Model View Controller). Nel nostro caso il backend gestirà la parte di Model e Controller esponendo delle API Restful, le quali potranno essere consumate dal frontend realizzato con React.
 
 ## 11. Risorse
-Il progetto verrà realizzato tramite i laptop degli sviluppatori. Per la messa in produzione decidiamo di usare Heroku che ci fornirà uno spazio per caaricare la nostra immagine Docker. Inoltre avremo bisogno di SmartPhone per il testing del responsiveness della applicazione.
+L'intero progetto verrà realizzato sfruttando l'attrezzatura personale del team, in quanto non siamo un'azienda ma 3 lavoratori autonomi che hanno deciso di collaborare. Nello specifico verranno utilizzati i laptop dei professionisti per lo sviluppo dell'applicativo e gli smartphone per il testing (aggiuntivo) della parte di responsive. Per la messa in produzione, come già accennato nel punto 4, useremo una VPS che ci fornirà uno spazio dove caricare la nostra immagine Docker. Come spazio di ritrovo/lavoro useremo principalmente le aule messe a disposizione dall'Università di Bergamo.
 
 ## 12. Budget
-Dato che il progetto nasce da una nostra esigenza e lo sviluppo non richiede grandi risorse economiche, non abbiamo un budget prefissato. Tuttavia possiamo stimare il costo dello sviluppo con un costo orario di 17€/h e 120h (40h * 3 sviluppatori) di sviluppo per un totale di 2040€. Per rientrare nei costi entro 1 anno, supponendo un costo dell'abbonamento di 10€/mese, è necessaria l'attivazione di 17 abbonamenti.
+Dato che il progetto nasce da una nostra esigenza e lo sviluppo non richiede grandi risorse economiche, non partiamo da un budget prefissato. Tuttavia possiamo stimare il costo della realizzazione finale calcolando quanto tempo ci richiederà di lavoro.
+
+Partendo da una tariffa oraria di 30€/ora e 120 ore di sviluppo (40 ore * 3 persone) si arriva ad un totale di 3600€. Per rientrare nei costi entro 1 anno, supponendo un costo dell'abbonamento di 5€/mese, è necessaria l'attivazione di 60 piani a pagamento.
 
 ## 13. Cambiamenti
-Gli issue riportati dagli utenti forniranno una base per la roadmap dello sviluppo di nuove funzioni. Questo approccio è reso più facile dal fatto che seguiamo il modello di McCall per la garanzia di qualità (vedi punto 9), in particolare la parte di riutilizzabilità e manutenibilità.
+Gli issue riportati dagli utenti (tramite relativa segnalazione) forniranno una base per la costruzione della roadmap per lo sviluppo di nuove funzioni. Questo approccio è reso più facile dal fatto che seguiremo il modello di McCall per la garanzia di qualità (vedi punto 9), in particolare la parte di riutilizzabilità e manutenibilità del codice. In questo modo non ci saranno problemi nell'aggiungere modifiche future.
 
 ## 14. Consegna
-Seguendo il modello git-flow, ad ogni nuova funzionalità verrà creato un nuovo branch su github. Dopo averla implementata il branch viene mergiato in development, dove verrà verificata la stabilità dell'applicazione. Una volta terminati i test, development verrà mergiato in main e verrà rilasciata una nuova release.
+Seguendo il modello git-flow, ad ogni nuova funzionalità verrà creato un branch su Github. Dopo averla implementata, il nuovo branch verrà mergiato in Development (branch di sviluppo), dove verrà verificata la stabilità dell'applicazione. Una volta terminati i test, Development verrà mergiato in Main (branch principale) e a quel punto verrà rilasciata una nuova release disponibile a tutti gli utenti.
