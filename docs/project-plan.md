@@ -1,45 +1,46 @@
-# Project Plan
+# Project Plan 📄
+
 
 ## 1. Introduzione
-Siamo un gruppo di studenti di ingegneria informatica dell'università di Bergamo: Samuel Gherardi, Matteo Soldini e Paolo Zanotti. Abbiamo deciso di realizzare questo progetto in quanto sentiamo l'esigenza di poter tener traccia delle spese e pianificare la gestione delle entrate (budgeting) in modo facile e veloce. Le applicazione attualmente sul mercato non soddisfano completamente le nostre esigenze. Il nostro progetto consiste in una applicazione web che permette di gestire le entrate ed uscite personali tramite interfaccia web.
+Siamo un gruppo di studenti di ingegneria informatica dell'università di Bergamo: Samuel Gherardi, Matteo Soldini e Paolo Zanotti. Abbiamo deciso di realizzare questo progetto in quanto sentiamo l'esigenza di tenere traccia delle spese fatte giornalmente e di pianificare la gestione delle entrate per il futuro (budget e obiettivi) in modo facile e veloce. Le applicazioni attualmente sul mercato non soddisfano completamente le nostre necessità, abbiamo quindi pensato di sviluppare una applicazione web che permetta di gestire le entrate ed uscite personali tramite interfaccia web.
 
 ## 2. Modello di processo
-Abbiamo deciso di sviluppare il sofrware secondo il metodo Agile, tramite gli issue forniti da Github.
+Come modello di processo abbiamo deciso di seguire il metodo Agile per lo sviluppo del software, sfruttando in particolare la funzione 'Projects' fornita da Github. In questo modo avremo a disposizione una Kanban intuitiva che ci permetterà di gestire i task come degli issues normali, dividendoli in TO DO, IN PROGRESS e DONE.
 
 ## 3. Organizzazione del progetto
-In quanto il team è composto solamente da 3 persone, non riteniamo necessaria la figura del project manager. Per questo motivo abbiamo adottato una suddivisione equa dei ruoli. Quindi le decisioni relative alla gestione dello sviluppo del progetto verranno prese congiuntamente. Inoltre, abbiamo deciso che il team si dividerà i ruoli, come spiegato al punto 7 del project plan.
+Dato che il team è composto solo da 3 persone, non risulta necessaria la figura del Project Manager per coordinarci. Questo ci ha permesso di adottare una suddivisione equa dei ruoli decisionali e quindi le scelte relative alla gestione dello sviluppo del progetto verranno prese congiuntamente. Inoltre, abbiamo deciso che il team si dividerà in ruoli tecnici, come spiegato meglio al punto 7 del Project Plan.
 
 ## 4. Standard, linee guida, procedure
-Abbiamo deciso di suddividere il progetto in 2 componenti che comunicano tramite API Rest
+Il progetto verrà diviso in 2 componenti principali che comunicheranno tra loro tramite delle API rest. In particolare avremo il:
 
 ### Frontend
-L'interfaccia grafica che verrà esposta all'utente.
-Abbiamo deciso di utilizzare NodeJS, React e TailwindCSS.
+Si tratta dell'interfaccia grafica che verrà esposta all'utente dell'applicazione. Per svilupparla useremo [React](https://reactjs.org/) (Libreria JS) e [TailwindCSS](https://tailwindcss.com/) (Framework CSS).
 
 ### Backend
-Il componente responsabile della gestione dei dati e loro distribuzione.
-Comunica con un database SQLite.
-Abbiamo deciso di svilupparlo con Python e il framework Django
+Sarà il componente responsabile della gestione dei dati e della loro distribuzione, utile per esporre le API al frontend e per le comunicazioni con il database tramite [SQLite](https://www.sqlite.org/index.html). Abbiamo deciso di svilupparlo con Python e il framework [Django](https://www.djangoproject.com/).
 
- ### Deploy
- Per quanto riguarda la distribuzione del software, abbiamo deciso che il progetto finale verrà hostato su servizio Heroku.
- Per semplificare il processo di deployment della applicazione, abbiamo deciso di utilizzare i container Docker.
+### Database
+Per la gestione dei dati useremo un database relazionale, progettato tramite schema ER e modello logico. Concretamente lo realizzeremo con l'applicativo SQLite.
+
+### Deploy
+ Per quanto riguarda la distribuzione del software abbiamo deciso che il progetto finale verrà caricato su una nostra VPS. Questo ci permetterà di avere un maggiore controllo sulla gestione del sistema. Per semplificare il processo di deployment abbiamo inoltre deciso di utilizzare i Docker container.
 
 ## 5. Attività di gestione
-Per quanto riguarda l'attività di organizzazione, abbiamo deciso di incontrarci settimanalmente. Durante gli incontri documentiamo il lavoro fatto ed organizziamo le attività che ognuno dovrà svolgere la settimana successiva. Ad ogni incontro produciamo un documento che riassume gli argometi trattati. Ci siamo posti l'obiettivo di terminare il progetto entro 4 settimane lavorative. Daremo priorità alla documentazione del software rispetto allo sviluppo.
+Per quanto riguarda l'attività di organizzazione, abbiamo deciso di incontrarci con frequenza settimanale. Durante gli incontri documentiamo il lavoro fatto ed organizziamo le attività che ognuno dovrà svolgere durante la settimana successiva. Ad ogni incontro produciamo un documento che riassume gli argomenti trattati (Decision Making). Ci siamo posti l'obiettivo di terminare il progetto entro 4 settimane lavorative e daremo priorità alla documentazione del software rispetto al suo sviluppo.
 
 ## 6. Rischi
-Abbiamo considerato i seguenti rishi:
-- Finire in ritardo, per questo motivo abbiamo deciso di cominciare con largo anticipo rispetto alla consegna dell'elaborato
-- Il progetto non viene utilizzato, ad esempio per il prezzo dell'abbonamento. Per questo motivo abbiamo deciso di rilasciarlo in 2 versioni: una gratis con funzionalità limitate ed una a pagamento con tutte le funzionalità
+Dato che il progetto nasce da una nostra idea e non da una commissione da parte di un cliente, ci aspettiamo diversi rischi una volta messo in produzione. In particolare:
+- Finire in ritardo lo sviluppo, per questo motivo abbiamo deciso di cominciare con largo anticipo rispetto alla consegna del Project Plan;
+- Il progetto non verrà utilizzato, ad esempio per il prezzo dell'abbonamento. Per questo motivo abbiamo deciso di rilasciare il software in 2 versioni: una gratis con funzionalità limitate ed una a pagamento senza nessun limite.
 
 ## 7. Personale
-Abbiamo deciso i seguenti ruoli:
-- Database Architect: Gherardi Samuel
-- Backend Developer: Soldini Matteo
-- Frontend Developer: Zanotti Paolo
-- Tester: Gherardi Samuel
-Il Database Architect inizierà a lavorare prima degli altri, per poter rendere disponibile lo schema delle API su cui si baserà il backend. Seguirà poi il lavoro dei developer per poi finire con il testing del software.
+Il team, specializzato su aree differenti, si dividerà nei seguenti ruoli:
+- Database Architect: [Gherardi Samuel](https://github.com/SamuelGherardi)
+- Backend Developer: [Soldini Matteo](https://github.com/MatteoSoldini)
+- Frontend Developer: [Zanotti Paolo](https://github.com/zanottipaolo)
+- Tester: [Gherardi Samuel](https://github.com/SamuelGherardi)
+
+Il Database Architect inizierà a lavorare prima degli altri, per poter rendere disponibile lo schema delle API su cui si baserà il backend. Seguirà poi il lavoro dei developer per poi finire con il testing del software, documentando man mano il tutto.
 
 ## 8. Metodi e tecniche
 Potremmo estrarre i requisiti della nostra applicazione da un'utenza base tramite indagini di mercato e verificarli successivamente con dei diagrammi UML. In particolare tramite:
