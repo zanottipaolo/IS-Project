@@ -1,5 +1,5 @@
 # Project Plan 📄
-
+Come modello principale per lo sviluppo del progetto seguiremo i seguenti 14 punti del Project Plan, stilati da tutto il team in fase iniziale di progettazione.
 
 ## 1. Introduzione
 Siamo un gruppo di studenti di ingegneria informatica dell'università di Bergamo: Samuel Gherardi, Matteo Soldini e Paolo Zanotti. Abbiamo deciso di realizzare questo progetto in quanto sentiamo l'esigenza di tenere traccia delle spese fatte giornalmente e di pianificare la gestione delle entrate per il futuro (budget e obiettivi) in modo facile e veloce. Le applicazioni attualmente sul mercato non soddisfano completamente le nostre necessità, abbiamo quindi pensato di sviluppare una applicazione web che permetta di gestire le entrate ed uscite personali tramite interfaccia web.
@@ -8,7 +8,7 @@ Siamo un gruppo di studenti di ingegneria informatica dell'università di Bergam
 Come modello di processo abbiamo deciso di seguire il metodo Agile per lo sviluppo del software, sfruttando in particolare la funzione 'Projects' fornita da Github. In questo modo avremo a disposizione una Kanban intuitiva che ci permetterà di gestire i task come degli issues normali, dividendoli in TO DO, IN PROGRESS e DONE.
 
 ## 3. Organizzazione del progetto
-Dato che il team è composto solo da 3 persone, non risulta necessaria la figura del Project Manager per coordinarci. Questo ci ha permesso di adottare una suddivisione equa dei ruoli decisionali e quindi le scelte relative alla gestione dello sviluppo del progetto verranno prese congiuntamente. Inoltre, abbiamo deciso che il team si dividerà in ruoli tecnici, come spiegato meglio al punto 7 del Project Plan.
+Dato che il team è composto solo da 3 persone, non risulta necessaria la figura del Project Manager per coordinarci. Questo ci ha permesso di adottare una suddivisione equa dei ruoli decisionali e quindi le scelte relative alla gestione dello sviluppo del progetto verranno prese congiuntamente. Inoltre, abbiamo deciso che il team si dividerà in ruoli tecnici, come spiegato meglio al [punto 7](https://github.com/zanottipaolo/IS-Project/blob/main/docs/project-plan.md#7-personale) del Project Plan.
 
 ## 4. Standard, linee guida, procedure
 Il progetto verrà diviso in 2 componenti principali che comunicheranno tra loro tramite delle API rest. In particolare avremo il:
@@ -67,7 +67,7 @@ Garantiremo i precedenti requisiti sfruttando le tecnologie più moderne, ad ese
 Il software sviluppato, in particolare, seguirà il pattern MVC (Model View Controller). Nel nostro caso il backend gestirà la parte di Model e Controller esponendo delle API Restful, le quali potranno essere consumate dal frontend realizzato con React.
 
 ## 11. Risorse
-L'intero progetto verrà realizzato sfruttando l'attrezzatura personale del team, in quanto non siamo un'azienda ma 3 lavoratori autonomi che hanno deciso di collaborare. Nello specifico verranno utilizzati i laptop dei professionisti per lo sviluppo dell'applicativo e gli smartphone per il testing (aggiuntivo) della parte di responsive. Per la messa in produzione, come già accennato nel punto 4, useremo una VPS che ci fornirà uno spazio dove caricare la nostra immagine Docker. Come spazio di ritrovo/lavoro useremo principalmente le aule messe a disposizione dall'Università di Bergamo.
+L'intero progetto verrà realizzato sfruttando l'attrezzatura personale del team, in quanto non siamo un'azienda ma 3 lavoratori autonomi che hanno deciso di collaborare. Nello specifico verranno utilizzati i laptop dei professionisti per lo sviluppo dell'applicativo e gli smartphone per il testing (aggiuntivo) della parte di responsive. Per la messa in produzione, come già accennato nel [punto 4](https://github.com/zanottipaolo/IS-Project/blob/main/docs/project-plan.md#deploy), useremo una VPS che ci fornirà uno spazio dove caricare la nostra immagine Docker. Come spazio di ritrovo/lavoro useremo principalmente le aule messe a disposizione dall'Università di Bergamo.
 
 ## 12. Budget
 Dato che il progetto nasce da una nostra esigenza e lo sviluppo non richiede grandi risorse economiche, non partiamo da un budget prefissato. Tuttavia possiamo stimare il costo della realizzazione finale calcolando quanto tempo ci richiederà di lavoro.
@@ -75,7 +75,7 @@ Dato che il progetto nasce da una nostra esigenza e lo sviluppo non richiede gra
 Partendo da una tariffa oraria di 30€/ora e 120 ore di sviluppo (40 ore * 3 persone) si arriva ad un totale di 3600€. Per rientrare nei costi entro 1 anno, supponendo un costo dell'abbonamento di 5€/mese, è necessaria l'attivazione di 60 piani a pagamento.
 
 ## 13. Cambiamenti
-Gli issue riportati dagli utenti (tramite relativa segnalazione) forniranno una base per la costruzione della roadmap per lo sviluppo di nuove funzioni. Questo approccio è reso più facile dal fatto che seguiremo il modello di McCall per la garanzia di qualità (vedi punto 9), in particolare la parte di riutilizzabilità e manutenibilità del codice. In questo modo non ci saranno problemi nell'aggiungere modifiche future.
+Gli issue riportati dagli utenti (tramite relativa segnalazione) forniranno una base per la costruzione della roadmap per lo sviluppo di nuove funzioni. Questo approccio è reso più facile dal fatto che seguiremo il modello di McCall per la garanzia di qualità ([vedi punto 9](https://github.com/zanottipaolo/IS-Project/blob/main/docs/project-plan.md#9-garanzia-di-qualit%C3%A0)), in particolare la parte di riutilizzabilità e manutenibilità del codice. In questo modo non ci saranno problemi nell'aggiungere modifiche future.
 
 ## 14. Consegna
 Seguendo il modello git-flow, ad ogni nuova funzionalità verrà creato un branch su Github. Dopo averla implementata, il nuovo branch verrà mergiato in Development (branch di sviluppo), dove verrà verificata la stabilità dell'applicazione. Una volta terminati i test, Development verrà mergiato in Main (branch principale) e a quel punto verrà rilasciata una nuova release disponibile a tutti gli utenti.
