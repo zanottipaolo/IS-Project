@@ -3,15 +3,21 @@ Tutto il lavoro, sia in termini di codice che di documentazione, viene salvato s
 
 ## Struttura
 Sono presenti 2 cartelle:
+
 • Cartella `docs`: conterrà i vari file riguardanti la documentazione del progetto, partendo dal project plan a tutti i diagrammi UML.
+
 • Cartella `src/frontend`: conterrà il codice front-end della piattaforma, creato attraverso React e NextJS.
+
 • Cartella `src/backend`: conterrà il codice back-end della piattaforma, creato attraverso Python e il framework Django.
 
 ## Issue
 Le diverse attività che vengono assegnate all'interno del team vengono create sotto forma di `issue` su GitHub, i quali possono trovarsi in diversi stati in base al loro avanzamento.
 Per tenere traccia dello stato utilizziamo una board Kanban, suddivisa in 3 colonne: **Todo**,**In Progress**,**Done**.
+
 •**Todo**: contiene gli issue che sono stati creati ma non ancora sviluppati.
+
 •**In Progress**: contiene gli issue che si stanno sviluppando.
+
 •**Done**: contiene gli issue che sono stati sviluppati e che sono terminati.
 
 ## Branch
