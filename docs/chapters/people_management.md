@@ -11,4 +11,9 @@ Dal nostro punto di vista i vantaggi principali dell'organizzazione tramite adho
 
 Queste sono le principali mansioni svolte dai partecipanti del team:
 
-Progettazione DatabaseBack-endFront-endTesting del softwareSamuel GherardiMatteo SoldiniPaolo Zanotti
+|  | **Progettazione Database** | **Back-end** | **Front-end** | **Testing del software** |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Samuel Gherardi** | ✔️ |  |  | ✔️  |
+| **Matteo Soldini** | ✔️ | ✔️  |  |  |
+| **Paolo Zanotti** | ✔️ |  | ✔️ |  |
+
