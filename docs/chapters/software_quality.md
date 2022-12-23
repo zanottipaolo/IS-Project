@@ -10,7 +10,9 @@ Il team ha scelto di seguire i parametri di qualità defniti da **MCall**, bbiam
 • **Efficienza**: essendo un'applicazione web, per poterla utilizzare occorre una connessione ad internet ed un browser attraverso il quale inviare le richieste al server.
 
 • **Integrità**: il nostro software è sicuro:
+
 	1) La gestione delle password degli utenti che si registrano nel sistema viene effettuato attraverso SHA-256 e token JWT. Grazie a SHA-256 le password vengono crittografate, quindi non vengono rese visibili a chi ha accesso al database. JWT, acronimo di JSON Web Token, è un sistema di cifratura e di contatto in formato JSON per lo scambio di informazioni tra i vari servizi di un server. Si genera così un token che può essere cifrato e firmato tramite una chiave disponibile solo a colui che lo ha effettivamente generato.
+	
 	2) Il protocollo HTTPS (HyperText Transfer Protocol over Secure Socket Layer), consiste nella comunicazione tramite il protocollo HTTP (Hypertext Transfer Protocol) all'interno di una connessione criptata, tramite crittografia asimmetrica, dal Transport Layer Security (TLS).
 
 • **Usabilità**: il prodotto è assolutamente semplice da utilizzare, in quanto non servono particolari abilità nel poterlo comprendere.
