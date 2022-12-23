@@ -7,5 +7,6 @@ class BankAccountSerializer(serializers.ModelSerializer):
         model = BankAccount
         fields = ('__all__')
         extra_kwargs = {
-            'owner': {'required': False},   # automatically added
+            # automatically added
+            'owner': {'required': False, 'write_only': True},
         }
