@@ -13,7 +13,7 @@ Queste sono le principali mansioni svolte dai partecipanti del team:
 
 |  | Progettazione Database | Back-end | Front-end | Testing |
 | --- | --- | --- | --- | --- |
-| Matteo | V | V | V |  |
+| Matteo | V | V |  |  |
 | Paolo | V |  | V |  |
 | Samuel | V |  |  | V |
 
