@@ -30,6 +30,7 @@ from rest_framework_simplejwt.views import (
 # Views
 from users.views import UserViewSet, RegisterView
 from bank_accounts.views import BankAccountsViewSet
+from transactions.views import TransactionViewSet
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -48,6 +49,7 @@ schema_view = get_schema_view(
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
 router.register(r'bank_accounts', BankAccountsViewSet)
+router.register(r'transactions', TransactionViewSet)
 
 urlpatterns = [
     # urls
