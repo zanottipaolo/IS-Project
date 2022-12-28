@@ -11,5 +11,5 @@ class BankAccountsViewSet(viewsets.ModelViewSet):
     queryset = BankAccount.objects.all()
     serializer_class = BankAccountSerializer
 
-    def perform_create(self, serializer):
-        serializer.save(owner=self.request.user)
+    def get_queryset(self):
+        return BankAccount.objects.filter(owner=self.request.user)

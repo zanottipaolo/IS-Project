@@ -1,13 +1,17 @@
 from rest_framework import serializers
-from .models import Transaction
+from .models import Budget
 
 
-class TransactionSerializer(serializers.ModelSerializer):
+class BudgetSerializer(serializers.ModelSerializer):
+    owner = serializers.HiddenField(
+        default=serializers.CurrentUserDefault()
+    )
+
     class Meta:
-        model = Transaction
+        model = Budget
         fields = ('__all__')
 
-    def validate_bank_account(self, value):
+    def validate_category(self, value):
         # Check ownership
         if not self.context['request'].user == value.owner:
             raise serializers.ValidationError("Not owned by user")

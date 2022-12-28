@@ -1,12 +1,12 @@
 from rest_framework import serializers
-from .models import BankAccount
+from .models import Category
 
 
-class BankAccountSerializer(serializers.ModelSerializer):
+class CategorySerializer(serializers.ModelSerializer):
     owner = serializers.HiddenField(
         default=serializers.CurrentUserDefault()
     )
 
     class Meta:
-        model = BankAccount
+        model = Category
         fields = ('__all__')
