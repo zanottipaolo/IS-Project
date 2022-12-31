@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Button from '@mui/material/Button';
+import Head from "next/head";
+import Image from "next/image";
+import Button from "@mui/material/Button";
 
 export default function Home() {
   return (
@@ -9,5 +9,5 @@ export default function Home() {
         <title>Dashboard - CashFlow</title>
       </Head>
     </>
-  )
+  );
 }
