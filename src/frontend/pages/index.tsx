@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
-import Button from "@mui/material/Button";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   return (
@@ -8,6 +7,7 @@ export default function Home() {
       <Head>
         <title>Dashboard - CashFlow</title>
       </Head>
+      <Sidebar>Dashboard</Sidebar>
     </>
   );
 }

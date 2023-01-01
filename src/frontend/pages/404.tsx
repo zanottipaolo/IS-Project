@@ -1,63 +1,35 @@
+import { Box, Button, Container, Typography } from "@mui/material";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
-import { Box, Button, Container, Typography } from "@mui/material";
-import { TiArrowLeftThick } from "react-icons/ti";
+import { FiArrowLeft } from "react-icons/fi";
+import GifPageNotFound from "../public/images/404.gif";
 
 const PageNotFound: React.FC = () => {
   return (
     <>
       <Head>
-        <title>404 Page not found - CashFlow</title>
+        <title>Page not found - CashFlow</title>
       </Head>
-      <Box
-        component="main"
-        sx={{
-          alignItems: "center",
-          display: "flex",
-          flexGrow: 1,
-          minHeight: "100%",
-        }}
-      >
-        <Container maxWidth="md">
-          <Box
-            sx={{
-              alignItems: "center",
-              display: "flex",
-              flexDirection: "column",
-            }}
-          >
-            <Box sx={{ textAlign: "center" }}>
-              <Image
-                alt="404 page not found"
-                src="/images/404.gif"
-                style={{
-                  marginTop: 50,
-                  display: "inline-block",
-                  maxWidth: "100%",
-                  width: 500,
-                }}
-                width={500}
-                height={500}
-              />
-            </Box>
-            <Typography align="center" color="textPrimary" variant="subtitle2">
-              You either tried some shady route or you came here by mistake.
-              Whichever it is, try using the navigation.
-            </Typography>
-            <Link href="/" passHref style={{ textDecoration: "none" }}>
-              <Button
-                component="a"
-                startIcon={<TiArrowLeftThick />}
-                sx={{ mt: 3, p: 1.5 }}
-                variant="contained"
-              >
-                Go back to dashboard
-              </Button>
-            </Link>
-          </Box>
-        </Container>
-      </Box>
+      <Container maxWidth="md">
+        <Box display="flex" justifyContent="center">
+          <Image
+            src={GifPageNotFound}
+            alt="Page not found image"
+            className="h-full w-8/12"
+          />
+        </Box>
+
+        <Typography align="center" mb={4}>
+          You either tried some shady route or you came here by mistake.
+          Whichever it is, try using the navigation.
+        </Typography>
+
+        <Box display="flex" justifyContent="center">
+          <Button variant="contained" href="/" startIcon={<FiArrowLeft />}>
+            Go back
+          </Button>
+        </Box>
+      </Container>
     </>
   );
 };
