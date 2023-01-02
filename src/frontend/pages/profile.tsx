@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Sidebar from "../components/Sidebar";
 
-const AccountPage: React.FC = () => {
+const ProfilePage: React.FC = () => {
   return (
     <>
       <Head>
@@ -12,4 +12,4 @@ const AccountPage: React.FC = () => {
   );
 };
 
-export default AccountPage;
+export default ProfilePage;

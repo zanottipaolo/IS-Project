@@ -1,4 +1,5 @@
 import Head from "next/head";
+import DashTransactions from "../components/DashTransactions";
 import Sidebar from "../components/Sidebar";
 
 export default function Home() {
@@ -7,7 +8,10 @@ export default function Home() {
       <Head>
         <title>Dashboard - CashFlow</title>
       </Head>
-      <Sidebar>Dashboard</Sidebar>
+      <Sidebar>
+        Dashboard
+        <DashTransactions />
+      </Sidebar>
     </>
   );
 }
