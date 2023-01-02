@@ -5,9 +5,9 @@ const AccountPage: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Account - CashFlow</title>
+        <title>Profile - CashFlow</title>
       </Head>
-      <Sidebar>Account</Sidebar>
+      <Sidebar>Profile</Sidebar>
     </>
   );
 };

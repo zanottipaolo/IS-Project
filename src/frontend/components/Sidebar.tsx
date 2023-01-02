@@ -17,14 +17,44 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
-import { Avatar, Badge, Tooltip } from "@mui/material";
+import { Avatar, Badge } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../public/images/logo.svg";
+import { FaChartBar } from "react-icons/fa";
+import { GrTransaction } from "react-icons/gr";
+import { GiStairsGoal, GiTakeMyMoney } from "react-icons/gi";
+import { MdAccountBalance } from "react-icons/md";
 
 const drawerWidth = 240;
+
+const SideItems = [
+  {
+    href: "/",
+    icon: <FaChartBar />,
+    title: "Dashboard",
+  },
+  {
+    href: "/transactions",
+    icon: <GrTransaction />,
+    title: "Transactions",
+  },
+  {
+    href: "/budgets",
+    icon: <GiTakeMyMoney />,
+    title: "Budgets",
+  },
+  {
+    href: "/milestones",
+    icon: <GiStairsGoal />,
+    title: "Milestones",
+  },
+  {
+    href: "/accounts",
+    icon: <MdAccountBalance />,
+    title: "Accounts",
+  },
+];
 
 const openedMixin = (theme: Theme): CSSObject => ({
   width: drawerWidth,
@@ -171,7 +201,7 @@ const Sidebar: React.FC<React.PropsWithChildren> = ({ children }) => {
                 aria-label="show new notifications"
                 color="inherit"
                 sx={{
-                  marginRight: 3
+                  marginRight: 3,
                 }}
               >
                 <Badge badgeContent={17} color="error">
@@ -180,10 +210,7 @@ const Sidebar: React.FC<React.PropsWithChildren> = ({ children }) => {
               </IconButton>
 
               <IconButton sx={{ p: 0 }}>
-                <Avatar
-                  alt="Avatar user"
-                  src="https://placeimg.com/192/192/people"
-                />
+                <Avatar alt="Avatar user" />
               </IconButton>
             </Box>
           </Box>
@@ -204,57 +231,43 @@ const Sidebar: React.FC<React.PropsWithChildren> = ({ children }) => {
         <Divider />
 
         <List>
-          {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-            <ListItem key={text} disablePadding sx={{ display: "block" }}>
-              <ListItemButton
-                sx={{
-                  minHeight: 48,
-                  justifyContent: open ? "initial" : "center",
-                  px: 2.5,
+          {SideItems.map((item) => (
+            <ListItem key={item.title} disablePadding sx={{ display: "block" }}>
+              <Link
+                href={item.href}
+                style={{
+                  textDecoration: "none",
+                  boxShadow: "none",
+                  color: "inherit",
                 }}
               >
-                <ListItemIcon
+                <ListItemButton
                   sx={{
-                    minWidth: 0,
-                    mr: open ? 3 : "auto",
-                    justifyContent: "center",
+                    minHeight: 48,
+                    justifyContent: open ? "initial" : "center",
+                    px: 2.5,
                   }}
                 >
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} sx={{ opacity: open ? 1 : 0 }} />
-              </ListItemButton>
-            </ListItem>
-          ))}
-        </List>
-
-        <Divider />
-
-        <List>
-          {["All mail", "Trash", "Spam"].map((text, index) => (
-            <ListItem key={text} disablePadding sx={{ display: "block" }}>
-              <ListItemButton
-                sx={{
-                  minHeight: 48,
-                  justifyContent: open ? "initial" : "center",
-                  px: 2.5,
-                }}
-              >
-                <ListItemIcon
-                  sx={{
-                    minWidth: 0,
-                    mr: open ? 3 : "auto",
-                    justifyContent: "center",
-                  }}
-                >
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} sx={{ opacity: open ? 1 : 0 }} />
-              </ListItemButton>
+                  <ListItemIcon
+                    sx={{
+                      minWidth: 0,
+                      mr: open ? 3 : "auto",
+                      justifyContent: "center",
+                    }}
+                  >
+                    {item.icon}
+                  </ListItemIcon>
+                  <ListItemText
+                    primary={item.title}
+                    sx={{ opacity: open ? 1 : 0 }}
+                  />
+                </ListItemButton>
+              </Link>
             </ListItem>
           ))}
         </List>
       </Drawer>
+
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <DrawerHeader />
         {children}
