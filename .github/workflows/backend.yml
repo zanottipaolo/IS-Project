@@ -27,9 +27,11 @@ jobs:
         python -m pip install --upgrade pipenv wheel
     - name: Install Dependencies
       run: |
-        cd src/backend
+        ls
+        ls src/
+        cd src/backend/
         pipenv install --deploy
     - name: Run Tests
       run: |
-        cd src/backend
+        cd src/backend/
         pipenv run python manage.py test
