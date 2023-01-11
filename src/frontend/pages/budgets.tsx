@@ -1,4 +1,6 @@
+import { Box } from "@mui/material";
 import Head from "next/head";
+import DashBudgets from "../components/Dashboard/DashBudgets";
 import Sidebar from "../components/Sidebar";
 
 const BudgetsPage: React.FC = () => {
@@ -7,7 +9,15 @@ const BudgetsPage: React.FC = () => {
       <Head>
         <title>Budgets - CashFlow</title>
       </Head>
-      <Sidebar>Budgets</Sidebar>
+      <Sidebar>
+        <Box
+          sx={{
+            padding: 5,
+          }}
+        >
+          <DashBudgets />
+        </Box>
+      </Sidebar>
     </>
   );
 };

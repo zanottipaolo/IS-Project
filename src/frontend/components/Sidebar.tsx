@@ -21,37 +21,40 @@ import { Avatar, Badge } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../public/images/logo.svg";
-import { FaChartBar } from "react-icons/fa";
-import { GrTransaction } from "react-icons/gr";
-import { GiStairsGoal, GiTakeMyMoney } from "react-icons/gi";
-import { MdAccountBalance } from "react-icons/md";
+import {
+  MdAccountBalance,
+  MdInsertChart,
+  MdCompareArrows,
+  MdTaskAlt,
+  MdPieChart,
+} from "react-icons/md";
 
 const drawerWidth = 240;
 
 const SideItems = [
   {
     href: "/",
-    icon: <FaChartBar />,
+    icon: <MdInsertChart size={25} />,
     title: "Dashboard",
   },
   {
     href: "/transactions",
-    icon: <GrTransaction />,
+    icon: <MdCompareArrows size={25} />,
     title: "Transactions",
   },
   {
     href: "/budgets",
-    icon: <GiTakeMyMoney />,
+    icon: <MdPieChart size={25} />,
     title: "Budgets",
   },
   {
     href: "/milestones",
-    icon: <GiStairsGoal />,
+    icon: <MdTaskAlt size={25} />,
     title: "Milestones",
   },
   {
     href: "/accounts",
-    icon: <MdAccountBalance />,
+    icon: <MdAccountBalance size={25} />,
     title: "Accounts",
   },
 ];

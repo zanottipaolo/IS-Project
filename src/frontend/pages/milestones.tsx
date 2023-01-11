@@ -1,4 +1,6 @@
+import { Box } from "@mui/material";
 import Head from "next/head";
+import DashMilestones from "../components/Dashboard/DashMilestones";
 import Sidebar from "../components/Sidebar";
 
 const MilestonesPage: React.FC = () => {
@@ -7,7 +9,15 @@ const MilestonesPage: React.FC = () => {
       <Head>
         <title>Milestones - CashFlow</title>
       </Head>
-      <Sidebar>Milestones</Sidebar>
+      <Sidebar>
+        <Box
+          sx={{
+            padding: 5,
+          }}
+        >
+          <DashMilestones />
+        </Box>
+      </Sidebar>
     </>
   );
 };
