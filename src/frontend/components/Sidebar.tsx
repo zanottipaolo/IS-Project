@@ -17,7 +17,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import { Avatar, Badge } from "@mui/material";
+import { Avatar, Badge, Menu, MenuItem, Tooltip } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../public/images/logo.svg";
@@ -56,6 +56,17 @@ const SideItems = [
     href: "/accounts",
     icon: <MdAccountBalance size={25} />,
     title: "Accounts",
+  },
+];
+
+const settings = [
+  {
+    label: "Profile",
+    href: "/profile",
+  },
+  {
+    label: "Logout",
+    href: "/logout",
   },
 ];
 
@@ -131,6 +142,17 @@ const Drawer = styled(MuiDrawer, {
 const Sidebar: React.FC<React.PropsWithChildren> = ({ children }) => {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
+  const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(
+    null
+  );
+
+  const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
+    setAnchorElUser(event.currentTarget);
+  };
+
+  const handleCloseUserMenu = () => {
+    setAnchorElUser(null);
+  };
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -212,9 +234,46 @@ const Sidebar: React.FC<React.PropsWithChildren> = ({ children }) => {
                 </Badge>
               </IconButton>
 
-              <IconButton sx={{ p: 0 }}>
-                <Avatar alt="Avatar user" />
-              </IconButton>
+              <Box sx={{ flexGrow: 0 }}>
+                <Tooltip title="Open settings">
+                  <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+                    <Avatar alt="Remy Sharp" />
+                  </IconButton>
+                </Tooltip>
+                <Menu
+                  sx={{ mt: "45px" }}
+                  id="menu-appbar"
+                  anchorEl={anchorElUser}
+                  anchorOrigin={{
+                    vertical: "top",
+                    horizontal: "right",
+                  }}
+                  keepMounted
+                  transformOrigin={{
+                    vertical: "top",
+                    horizontal: "right",
+                  }}
+                  open={Boolean(anchorElUser)}
+                  onClose={handleCloseUserMenu}
+                >
+                  {settings.map((setting) => (
+                    <MenuItem key={setting.label} onClick={handleCloseUserMenu}>
+                      <Link
+                        href={setting.href}
+                        style={{
+                          textDecoration: "none",
+                          boxShadow: "none",
+                          color: "inherit",
+                        }}
+                      >
+                        <Typography textAlign="center">
+                          {setting.label}
+                        </Typography>
+                      </Link>
+                    </MenuItem>
+                  ))}
+                </Menu>
+              </Box>
             </Box>
           </Box>
         </Toolbar>
