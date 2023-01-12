@@ -25,16 +25,17 @@ const ProfileInfo = () => {
   ) => {
     event.preventDefault();
   };
-    
-    const [showRepeatPassword, setShowRepeatPassword] = React.useState(false);
 
-    const handleClickShowRepeatPassword = () => setShowRepeatPassword((show) => !show);
+  const [showRepeatPassword, setShowRepeatPassword] = React.useState(false);
 
-    const handleMouseDownRepeatPassword = (
-      event: React.MouseEvent<HTMLButtonElement>
-    ) => {
-      event.preventDefault();
-    };
+  const handleClickShowRepeatPassword = () =>
+    setShowRepeatPassword((show) => !show);
+
+  const handleMouseDownRepeatPassword = (
+    event: React.MouseEvent<HTMLButtonElement>
+  ) => {
+    event.preventDefault();
+  };
 
   return (
     <Box
@@ -52,7 +53,7 @@ const ProfileInfo = () => {
       >
         <Card
           sx={{
-            width: "35%",
+            width: { md: "35%", xs: "90%" },
             mb: { md: 5, xs: 0 },
           }}
         >
@@ -122,7 +123,7 @@ const ProfileInfo = () => {
               autoComplete="off"
             >
               <div>
-                <FormControl sx={{ m: 1 }} variant="outlined">
+                <FormControl sx={{ m: 1, width: "100%" }} variant="outlined">
                   <InputLabel htmlFor="outlined-adornment-password">
                     Password
                   </InputLabel>
@@ -144,7 +145,7 @@ const ProfileInfo = () => {
                     label="Password"
                   />
                 </FormControl>
-                <FormControl sx={{ m: 1 }} variant="outlined">
+                <FormControl sx={{ m: 1, width: "100%" }} variant="outlined">
                   <InputLabel htmlFor="outlined-adornment-repeat-password">
                     Repeat password
                   </InputLabel>
@@ -159,7 +160,11 @@ const ProfileInfo = () => {
                           onMouseDown={handleMouseDownRepeatPassword}
                           edge="end"
                         >
-                          {showRepeatPassword ? <VisibilityOff /> : <Visibility />}
+                          {showRepeatPassword ? (
+                            <VisibilityOff />
+                          ) : (
+                            <Visibility />
+                          )}
                         </IconButton>
                       </InputAdornment>
                     }
