@@ -9,7 +9,9 @@ from categories.models import Category
 
 class Transaction(models.Model):
     date = models.DateField()
-    bank_account = models.ForeignKey(BankAccount, on_delete=models.CASCADE)
+    description = models.CharField(max_length=256)
+    bank_account = models.ForeignKey(
+        BankAccount, on_delete=models.CASCADE, related_name="transactions")
     currency = models.ForeignKey(Currency, on_delete=models.CASCADE)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     amount = models.DecimalField(max_digits=7, decimal_places=2)
