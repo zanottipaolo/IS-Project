@@ -6132,6 +6132,30 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAGE0kRj/ERHB/U="
 							}
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFqnrBgmL8xEI=",
+							"_parent": {
+								"$ref": "AAAAAAGE0gCAkD2BBsM="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "536:1032;544:1064;568:1056;576:1064",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFqnuwK2MGGtk=",
+							"_parent": {
+								"$ref": "AAAAAAGE0gCAkD2BBsM="
+							},
+							"font": "Arial;13;0",
+							"left": 552,
+							"top": 1064,
+							"width": 60,
+							"height": 64,
+							"text": "Resolve send tokens problem"
 						}
 					]
 				}
