@@ -13,3 +13,10 @@ class TransactionSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError("Not owned by user")
 
         return value
+
+    def validate_category(self, value):
+        # Check ownership
+        if not self.context['request'].user == value.owner:
+            raise serializers.ValidationError("Not owned by user")
+
+        return value
