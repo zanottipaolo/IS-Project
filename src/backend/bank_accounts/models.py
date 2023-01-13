@@ -14,6 +14,6 @@ class BankAccount(models.Model):
 
     def current_amount(self):
         total = self.initial_amount
-        for transaction in self.transactions:
+        for transaction in self.transactions.all():
             total += transaction.amount
         return total
