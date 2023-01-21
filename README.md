@@ -2,6 +2,10 @@
 Progetto di Ingegneria del Software, A.A 2022 ÷ 2023.</br>
 Tutta la documentazione è disponibile nella directory `docs`, mentre il codice sorgente si trova in `src`.
 
+[🎯 Presentazione]()
+
+[🎯 Documentazione finale]()
+
 ### `docs`
 - [Project Plan](https://github.com/zanottipaolo/IS-Project/blob/main/docs/project-plan.md)
 - [Diagrammi UML usati](https://github.com/zanottipaolo/IS-Project/tree/main/docs/modelling)
