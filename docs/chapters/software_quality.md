@@ -17,10 +17,10 @@ Il team ha scelto di seguire i parametri di qualità defniti da **MCall**, bbiam
 
 • **Usabilità**: il prodotto è assolutamente semplice da utilizzare, in quanto non servono particolari abilità nel poterlo comprendere.
 
-## Parametri riguardanti la transizone verso un nuovo ambiente
+## Parametri riguardanti la transizione verso un nuovo ambiente
 
 • **Portabilità**: la ricerca di errori è facilitata dalla separazione che abbiamo effettuato tra la gestione dei dati, back-end, e la rappresentazione dei dati, il front-end.
 
-• **Riusabilita**: il template dell'applicazione sarà sicuramente riutilizzabile in futuro, in quanto si tratta di una base grafica.
+• **Riusabilità**: il template dell'applicazione sarà sicuramente riutilizzabile in futuro, in quanto si tratta di una base grafica.
 
 • **Interoperabilità**: sicuramente il nostro prodotto software potà essere integrato ad altri servizi, in quanto è presente una netta separazione tra il lato front-end e back-end.
