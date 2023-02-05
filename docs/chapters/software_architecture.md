@@ -16,7 +16,7 @@ Il flusso di informazioni è il seguente: quando ti iscrivi a qualsiasi sito web
 
 **View**
 
-Il componente View nell'architettura Django viene utilizzato per visualizzare i dati dal componente Model. Può anche essere utilizzato per raccogliere dati dall'utente e inviarli al Model come input del modulo.
+Il componente View viene utilizzato per visualizzare i dati dal componente Model. Può anche essere utilizzato per raccogliere dati dall'utente e inviarli al Model come input del modulo.
 In questo modo, il componente View contiene la logica dell'interfaccia utente.
 Ad esempio, se si fa clic su una spesa e poi vai alla pagina dei dettagli, la nuova pagina web che viene generata è la visualizzazione dei dettagli della spesa. Allo stesso modo, se si fa clic su una categoria e poi si passa alla visualizzazione per categoria, la nuova pagina Web generata è la visualizzazione per categoria.
 
