@@ -1,5 +1,9 @@
 # Documentazione 📄
 
+[🎯 Presentazione](https://github.com/zanottipaolo/IS-Project/blob/main/docs/Presentazione.pdf)
+
+[🎯 Documentazione finale](https://github.com/zanottipaolo/IS-Project/blob/main/docs/DocumentoFinale.pdf)
+
 - [Project Plan 📝](https://github.com/zanottipaolo/IS-Project/blob/main/docs/project-plan.md)
 
 - Diagrammi UML usati e schema ER ✏️
@@ -31,7 +35,3 @@
   - [7 incontro](https://github.com/zanottipaolo/IS-Project/blob/main/docs/decision-making/session-7.md)
   - [8 incontro](https://github.com/zanottipaolo/IS-Project/blob/main/docs/decision-making/session-8.md)
   - [9 incontro](https://github.com/zanottipaolo/IS-Project/blob/main/docs/decision-making/session-9.md)
-
-[🎯 Presentazione]()
-
-[🎯 Documentazione finale]()
