@@ -20,6 +20,7 @@ import Switch from "@mui/material/Switch";
 import DeleteIcon from "@mui/icons-material/Delete";
 import FilterListIcon from "@mui/icons-material/FilterList";
 import { visuallyHidden } from "@mui/utils";
+import { useEffect } from "react";
 
 interface Data {
   id: number;
@@ -191,10 +192,10 @@ function EnhancedTableHead(props: EnhancedTableProps) {
         {headCells.map((headCell, index) => (
           <TableCell
             key={headCell.id}
-            align={index === 0  ? "left" : "right"}
+            align={index === 0 ? "left" : "right"}
             padding={headCell.disablePadding ? "none" : "normal"}
             sortDirection={orderBy === headCell.id ? order : false}
-            sx={{fontWeight: 700}}
+            sx={{ fontWeight: 700 }}
           >
             <TableSortLabel
               active={orderBy === headCell.id}
@@ -279,6 +280,29 @@ const DashTransactions: React.FC = () => {
   const [page, setPage] = React.useState(0);
   const [dense, setDense] = React.useState(false);
   const [rowsPerPage, setRowsPerPage] = React.useState(5);
+
+  const getTransactions = async () => {
+    try {
+      const res = await fetch("http://localhost:8000/transactions/", {
+        method: "GET",
+        mode: "cors",
+        headers: {
+          accept: "application/json",
+          Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
+          "Content-Type": "application/json",
+        },
+      });
+
+      const data = await res.json();
+      console.log(data);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  useEffect(() => {
+    getTransactions();
+  });
 
   const handleRequestSort = (
     event: React.MouseEvent<unknown>,
