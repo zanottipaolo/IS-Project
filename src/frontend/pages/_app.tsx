@@ -10,8 +10,8 @@ export default function App({ Component, pageProps }: AppProps) {
       const res = await fetch("http://localhost:8000/token/", {
         method: "POST",
         body: JSON.stringify({
-          username: "admin",
-          password: "admin",
+          username: "test",
+          password: "test",
         }),
         mode: "cors",
         headers: {

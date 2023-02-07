@@ -22,7 +22,7 @@ import FilterListIcon from "@mui/icons-material/FilterList";
 import { visuallyHidden } from "@mui/utils";
 import { useEffect } from "react";
 
-interface Data {
+interface Transaction {
   id: number;
   amount: number;
   bankAccount: string;
@@ -38,7 +38,7 @@ function createData(
   date: string,
   bankAccount: string,
   category: string
-): Data {
+): Transaction {
   return {
     id,
     name,
@@ -111,7 +111,7 @@ function stableSort<T>(
 
 interface HeadCell {
   disablePadding: boolean;
-  id: keyof Data;
+  id: keyof Transaction;
   label: string;
   numeric: boolean;
 }
@@ -153,7 +153,7 @@ interface EnhancedTableProps {
   numSelected: number;
   onRequestSort: (
     event: React.MouseEvent<unknown>,
-    property: keyof Data
+    property: keyof Transaction
   ) => void;
   onSelectAllClick: (event: React.ChangeEvent<HTMLInputElement>) => void;
   order: Order;
@@ -171,7 +171,7 @@ function EnhancedTableHead(props: EnhancedTableProps) {
     onRequestSort,
   } = props;
   const createSortHandler =
-    (property: keyof Data) => (event: React.MouseEvent<unknown>) => {
+    (property: keyof Transaction) => (event: React.MouseEvent<unknown>) => {
       onRequestSort(event, property);
     };
 
@@ -275,11 +275,12 @@ function EnhancedTableToolbar(props: EnhancedTableToolbarProps) {
 
 const DashTransactions: React.FC = () => {
   const [order, setOrder] = React.useState<Order>("asc");
-  const [orderBy, setOrderBy] = React.useState<keyof Data>("amount");
+  const [orderBy, setOrderBy] = React.useState<keyof Transaction>("amount");
   const [selected, setSelected] = React.useState<readonly string[]>([]);
   const [page, setPage] = React.useState(0);
   const [dense, setDense] = React.useState(false);
   const [rowsPerPage, setRowsPerPage] = React.useState(5);
+  const [transactions, setTransaction] = React.useState<Transaction[] | []>([]);
 
   const getTransactions = async () => {
     try {
@@ -291,10 +292,26 @@ const DashTransactions: React.FC = () => {
           Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
           "Content-Type": "application/json",
         },
-      });
+      }).then(async (data)=> {
+        const jsonData = await data.json()
 
-      const data = await res.json();
-      console.log(data);
+        let result = [];
+
+        for (const d of jsonData) {
+          result.push(createData(
+            d.id,
+            d.description,
+            d.amount,
+            d.date,
+            d.bank_account,
+            d.category
+          ));
+        }
+        
+        console.log(result)
+
+        setTransaction(result);
+      });
     } catch (err) {
       console.log(err);
     }
@@ -306,7 +323,7 @@ const DashTransactions: React.FC = () => {
 
   const handleRequestSort = (
     event: React.MouseEvent<unknown>,
-    property: keyof Data
+    property: keyof Transaction
   ) => {
     const isAsc = orderBy === property && order === "asc";
     setOrder(isAsc ? "desc" : "asc");
@@ -315,7 +332,7 @@ const DashTransactions: React.FC = () => {
 
   const handleSelectAllClick = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.checked) {
-      const newSelected = rows.map((n) => n.id.toString());
+      const newSelected = transactions.map((n) => n.id.toString());
       setSelected(newSelected);
       return;
     }
@@ -361,9 +378,9 @@ const DashTransactions: React.FC = () => {
 
   // Avoid a layout jump when reaching the last page with empty rows.
   const emptyRows =
-    page > 0 ? Math.max(0, (1 + page) * rowsPerPage - rows.length) : 0;
+    page > 0 ? Math.max(0, (1 + page) * rowsPerPage - transactions.length) : 0;
 
-  return (
+  if (transactions.length > 0) return (
     <Box sx={{ width: "100%" }}>
       <Paper sx={{ width: "100%", mb: 2 }}>
         <EnhancedTableToolbar numSelected={selected.length} />
@@ -379,10 +396,10 @@ const DashTransactions: React.FC = () => {
               orderBy={orderBy}
               onSelectAllClick={handleSelectAllClick}
               onRequestSort={handleRequestSort}
-              rowCount={rows.length}
+              rowCount={transactions.length}
             />
             <TableBody>
-              {stableSort(rows, getComparator(order, orderBy))
+              {stableSort(transactions, getComparator(order, orderBy))
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map((row, index) => {
                   const isItemSelected = isSelected(row.id.toString());
@@ -437,7 +454,7 @@ const DashTransactions: React.FC = () => {
         <TablePagination
           rowsPerPageOptions={[5, 10, 25]}
           component="div"
-          count={rows.length}
+          count={transactions.length}
           rowsPerPage={rowsPerPage}
           page={page}
           onPageChange={handleChangePage}
@@ -450,6 +467,7 @@ const DashTransactions: React.FC = () => {
       />
     </Box>
   );
+  else return <div>Loading</div>
 };
 
 export default DashTransactions;
