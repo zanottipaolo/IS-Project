@@ -93,6 +93,8 @@ const AddTransactionDialog = (props: {
 	};
 
 	const handleSubmit = () => {
+		setAddTransactionState("running");
+
 		axios
 			.post(
 				"http://localhost:8000/transactions/",
@@ -116,9 +118,10 @@ const AddTransactionDialog = (props: {
 				setAmount("");
 				setSelectedBankAccount("");
 				setSelectedDate(dayjs(new Date()));
-				setSelectedCategories("");
+				setSelectedCategory("");
 
 				setAddTransactionState("completed");
+
 				handleClose();
 			})
 			.catch((e) => {
@@ -147,7 +150,7 @@ const AddTransactionDialog = (props: {
 								step: "0.01",
 							}}
 							startAdornment={
-								<InputAdornment position="start">$</InputAdornment>
+								<InputAdornment position="start">€</InputAdornment>
 							}
 							label="Amount"
 							type="number"

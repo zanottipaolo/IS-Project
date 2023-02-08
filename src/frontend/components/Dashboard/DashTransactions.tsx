@@ -102,7 +102,7 @@ interface HeadCell {
 
 const headCells: readonly HeadCell[] = [
 	{
-		id: "name",
+		id: "description",
 		numeric: false,
 		disablePadding: true,
 		label: "Description",
@@ -296,8 +296,6 @@ const DashTransactions: React.FC = () => {
 						)
 					);
 				}
-
-				console.log(result);
 
 				setTransaction(result);
 			});
