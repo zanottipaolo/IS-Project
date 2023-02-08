@@ -1,8 +1,16 @@
 from rest_framework import serializers
+
 from .models import Transaction
 
 
 class TransactionSerializer(serializers.ModelSerializer):
+    category_name = serializers.CharField(
+        read_only=True, source="category.name")
+    bank_account_name = serializers.CharField(
+        read_only=True, source="bank_account.name")
+    currency_name = serializers.CharField(
+        read_only=True, source="currency.name")
+
     class Meta:
         model = Transaction
         fields = ('__all__')
